@@ -5,4 +5,7 @@ use (
 	./02-data-types
 	./03-variables
 	./04-constant-variables
+	./05-operators/A-arithmetic-operators
+	./05-operators/B-comparison-operators
+	./05-operators/C-logic-operators
 )
