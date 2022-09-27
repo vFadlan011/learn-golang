@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 	// deklarasi variable dengan menuliskan tipe data secara eksplisit
 	var firstName string = "john"
-	// deklarasi variable tanpa menuliskan tipe data (disebut type inference, untuk best practicenya di google banyak)
 	var lastName = "doe"
 	// deklarasi variable tanpa menggunakan var
 	fullName := firstName + " " + lastName
