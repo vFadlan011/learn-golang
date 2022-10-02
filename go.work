@@ -2,10 +2,17 @@ go 1.18
 
 use (
 	./01-hello
-	./02-data-types
+	./02-data-types/A-basic-data-types
+	./02-data-types/B-data-types-convertion
+	./02-data-types/C-data-type-aliases
+	./02-data-types/D-array-data-type
+	./02-data-types/E-slice-data-type
+	./02-data-types/F-map-data-type
 	./03-variables
 	./04-constant-variables
 	./05-operators/A-arithmetic-operators
 	./05-operators/B-comparison-operators
 	./05-operators/C-logic-operators
+	./06-conditionals/A-if-else
+	./06-conditionals/B-switch-case
 )
