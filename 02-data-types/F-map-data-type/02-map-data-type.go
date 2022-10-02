@@ -10,34 +10,29 @@ Bedanya, pada map golang type data pada key ataupun value tidak boleh berubah-ub
 func main() {
 	// Pembuatan map
 	person := map[string]string{
-		"name":"Fadlan Abduh",
-		"address":"Pemalang",
+		"name":    "Fadlan Abduh",
+		"address": "Pemalang",
 	}
 
-	
 	// Menambahkan key dan value baru pada map
 	person["title"] = "Programmer"
 	fmt.Println(person)
-	
-	
+
 	// Mendapatkan value diketahui key (indexing)
 	fmt.Println("\nIndexing map")
-	fmt.Println("person['name']\t:", person["name"]) // mengembalikan value dari key 'name'
+	fmt.Println("person['name']\t:", person["name"])                           // mengembalikan value dari key 'name'
 	fmt.Println("person['abc']\t:", person["abc"], "\t//'abc' is not defined") // tidak mengembalikan apapun
-	
-	
+
 	// Mendapatkan jumlah data pada map
 	// len(map)
 	fmt.Println("\nGet map length")
-	fmt.Println("len(person)\t:",len(person))
-	
-	
+	fmt.Println("len(person)\t:", len(person))
+
 	// Menghapus key-value pada map
 	// delete(map, key)
 	fmt.Println("\nDeleting key-value inside math using delete()")
 	delete(person, "title")
 	fmt.Println(person)
-
 
 	// Membuat map dengan keyowrd 'make'
 	// make(map[TypeKey]TypeValue)

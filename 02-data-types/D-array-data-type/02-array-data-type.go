@@ -8,14 +8,14 @@ func main() {
 	arr[1] = "Kurniawan"
 	arr[2] = "Khannedy"
 
-	fmt.Println("arr\t:",arr)
-	fmt.Println("arr[0]\t:",arr[0])
-	fmt.Println("arr[1]\t:",arr[1])
-	fmt.Println("arr[2]\t:",arr[2])
-	fmt.Println("arr[3]\t:",arr[3])
-	fmt.Println("len(arr):",len(arr))
+	fmt.Println("arr\t:", arr)
+	fmt.Println("arr[0]\t:", arr[0])
+	fmt.Println("arr[1]\t:", arr[1])
+	fmt.Println("arr[2]\t:", arr[2])
+	fmt.Println("arr[3]\t:", arr[3])
+	fmt.Println("len(arr):", len(arr))
 	fmt.Println()
-	
+
 	var arr2 = [5]int{
 		90,
 		86,
@@ -23,7 +23,7 @@ func main() {
 		96,
 		84,
 	}
-	
+
 	fmt.Println(arr2)
-	fmt.Println("len(arr2):",len(arr2))
+	fmt.Println("len(arr2):", len(arr2))
 }
