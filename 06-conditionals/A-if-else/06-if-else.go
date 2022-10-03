@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	score := 82
+	var score int = 100
+
 	var point string
 	if score <= 100 && score > 95 { //96-100
 		point = "A+"
@@ -15,8 +16,23 @@ func main() {
 		point = "C"
 	} else if score == 75 { //75
 		point = "D"
-	} else if score < 75 { //0-74
+	} else if score < 75 && score > 39 { //0-74
 		point = "E"
+	} else if score <= 39 && score > 10 {
+		point = "F"
+	} else {
+		point = "ABSOLUTE-IDIOTS!"
 	}
-	fmt.Print(score, point)
+	fmt.Println("Basic")
+	fmt.Println(score, point)
+
+	name := "Fadlan"
+
+	fmt.Println("\nShort Statement")
+	if length := len(name); length <= 5 {
+		fmt.Println("Format Nama Benar")
+	} else {
+		fmt.Println("Nama terlalu panjang")
+	}
+
 }

@@ -15,4 +15,7 @@ use (
 	./05-operators/C-logic-operators
 	./06-conditionals/A-if-else
 	./06-conditionals/B-switch-case
+	./07-for-loop/A-basic-loop
+	./07-for-loop/B-for-with-statement
+	./07-for-loop/C-for-without-statement
 )
