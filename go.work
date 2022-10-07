@@ -18,4 +18,7 @@ use (
 	./07-for-loop/A-basic-loop
 	./07-for-loop/B-for-with-statement
 	./07-for-loop/C-for-without-statement
+	./07-for-loop/D-for-range
+	./07-for-loop/E-break-continue
+	./07-for-loop/F-nested-loop
 )
