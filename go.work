@@ -41,4 +41,13 @@ use (
 	./08-function/K-closure
 	./08-function/L-function-as-return-value
 
+	./09-defer-panic-recover/A-defer
+	./09-defer-panic-recover/B-panic
+	./09-defer-panic-recover/C-recover
+
+	./10-struct/A-basic-struct
+	./10-struct/B-struct-method
+	
+	./11-interface/A-basic-interface
+	./11-interface/B-empty-interface
 )
