@@ -48,5 +48,7 @@ use (
 	./10-struct/A-basic-struct
 	./10-struct/B-struct-methods
 	./10-struct/C-non-struct-methods
+	./10-struct/D-anonymous-struct
+	./10-struct/E-struct-and-slice
 
 )
