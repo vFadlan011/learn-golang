@@ -50,5 +50,8 @@ use (
 	./10-struct/C-non-struct-methods
 	./10-struct/D-anonymous-struct
 	./10-struct/E-struct-and-slice
+	./10-struct/F-nested-struct
+	./10-struct/G-pointer-methods
+	./11-public-private-properties
 
 )
